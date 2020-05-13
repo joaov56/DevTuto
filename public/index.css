@@ -1,0 +1,23 @@
+body{
+    background: url("/images/bg-intro-desktop.png");
+    background-color:   #FF6666;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#welcome{
+    text-align: center;
+    font-size: 60px;
+
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.container{
+
+    
+
+}
