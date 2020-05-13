@@ -35,6 +35,8 @@ app.use(passport.session())
 
 app.get("/", (req, res) => {
     res.render("index.ejs", { name: req.user.name })
+    console.log(users);
+
 
 })
 
