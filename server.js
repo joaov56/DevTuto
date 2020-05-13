@@ -34,7 +34,7 @@ app.use(passport.session())
 
 
 app.get("/", (req, res) => {
-    res.render("index.ejs")
+    res.render("index.ejs", { name: req.user.name })
 
 })
 
@@ -70,6 +70,9 @@ app.post('/register', async (req, res) => {
             password: hashedPassword
 
         })
+
+
+
 
         res.redirect('/login')
     } catch (error) {
