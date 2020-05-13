@@ -30,6 +30,7 @@ body{
     font-weight: bold;
 
 
+
 }
 
 .description{
@@ -133,3 +134,16 @@ form p{
     visibility: visible;
 }
 
+
+
+
+.destaque-index{
+    font-size: 60px;
+    max-width: 600px;
+    display: flex;
+    font-weight: bold;
+    color: #ffffff;
+    
+
+
+}

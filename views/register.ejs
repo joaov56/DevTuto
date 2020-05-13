@@ -35,23 +35,22 @@
 
 
         <p class="free">Try it free 7 days then $20/mo. thereafter</p>
-        <form class="form1">
-
-          <p class="erro">NOME INVALIDO</p>
-          <input type="text" name="nome" placeholder="First Name" class="ok">
+        <form class="form1" action="/register" method="POST">
 
 
+          <input type="text" name="name" placeholder="First Name" class="ok">
 
-          <p class="erro">ULTIMO NOME INVALIDO</p>
+
+
           <input type="text" name="last_name" placeholder="Last Name">
 
 
-          <p class="erro">EMAIL INVALIDO</p>
-          <input type="text" name="email" placeholder="Email Address">
+
+          <input type="email" name="email" placeholder="Email Address">
 
 
-          <p class="erro">SENHA INVALIDA</p>
-          <input type="text" name="password" placeholder="Password">
+
+          <input type="password" name="password" placeholder="Password">
 
 
           <button type="submit">CLAIM YOUR FREE TRIAL </button>
@@ -74,7 +73,7 @@
 
   </main>
 
-  <script src="script.js"></script>
+  <script src="/views/script.js"></script>
 
 </body>
 
