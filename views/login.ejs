@@ -18,7 +18,9 @@
 </head>
 
 <body>
-
+    <% if (messages.error) {%>
+    <% messages.error %>
+    <% } %>
 
     <main>
         <div class="container">
@@ -32,11 +34,11 @@
                 <form class="form1">
 
 
-                    <input type="text" name="nome" placeholder="Email" class="ok">
+                    <input type="text" name="email" placeholder="Email" class="ok" id="email" required>
 
 
 
-                    <input type="text" name="last_name" placeholder="Senha">
+                    <input type="password" name="password" placeholder="Senha" id="password">
                     <button type="submit" id="login-page">Login</button>
 
 
